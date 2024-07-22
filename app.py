@@ -32,6 +32,5 @@ query_engine = RetrieverQueryEngine.from_args(
 
 
 def transform(input: str, history: list[mel.ChatMessage]):
-    prompt = input  # Use the input as the prompt for the agent
-    response = query_engine.query(prompt)
+    response = query_engine.query(input)
     yield response.response

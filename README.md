@@ -31,5 +31,5 @@ This repository showcases a custom **property graph retriever** tailored for det
 ### Running the UI
 5. Start the UI application:
    ```bash
-   python app.py
+   mesop app.py
    ```
